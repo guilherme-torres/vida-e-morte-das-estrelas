@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2, p, em {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bloco {
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.principal {
+    width: 100%;
+    padding: 0 0 100px;
+    text-align: center;
+    color: black;
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.principal h2 {
+    font-weight: normal;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.bloco.azul {
+    background-color: #262EBF;
+}
+
+.bloco.azul-escuro {
+    background-color: #03318C;
+}
+
+.bloco.azul-mais-escuro {
+    background-color: #022859;
+}
+
+.bloco.cinza {
+    background-color: #072326;
+}
+
+.bloco.vermelho {
+    background-color: #A62C21;
+}
+
+.bloco p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    color: #e9e9e9;
+}
+
+.bloco img {
+    margin-top: 40px;
+}
+
+.imagem-nebulosa {
+    width: 100%;
+}
+
+.bloco.citacao p {
+    color: black;
+}
+
+.bloco.citacao #autor {
+    font-weight: lighter;
+}
