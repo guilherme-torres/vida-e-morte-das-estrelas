@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-h2, p, em {
+h2, p, em, a {
     font-family: 'Open Sans', sans-serif;
 }
 
 .principal {
     width: 100%;
-    padding: 0 0 30px;
+    padding-bottom: 30px;
     text-align: center;
     color: black;
 }
@@ -38,7 +38,7 @@ h2, p, em {
 
 .bloco {
     width: 100%;
-    padding: 100px 20px;
+    padding: 100px 30px;
     text-align: center;
 }
 
@@ -63,20 +63,14 @@ h2, p, em {
 }
 
 .bloco p {
-    width: 60%;
-    margin: 0 auto;
     font-size: 1.2rem;
     line-height: 2.2rem;
     color: #e9e9e9;
 }
 
 .bloco img {
-    margin-top: 40px;
+    margin-top: 50px;
     max-width: 100%;
-}
-
-.imagem-nebulosa {
-    width: 100%;
 }
 
 .bloco.citacao p {
@@ -85,4 +79,31 @@ h2, p, em {
 
 .bloco.citacao #autor {
     font-weight: lighter;
+}
+
+.bloco.links {
+    background-color: #072326;
+}
+
+.bloco.links h2 {
+    color: #e9e9e9;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
+
+.bloco.links ul {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.bloco.links ul li {
+    margin-top: 10px;
+}
+
+.bloco.links ul li a {
+    color: #bdbdbd;
+}
+
+.imagem-nebulosa {
+    width: 100%;
 }
